@@ -1,5 +1,15 @@
+.vscode/
 .git/
 .avoscloud/
 .leancloud/
 node_modules/
 src/
+public/
+.eslintrc.js
+gulpfile.js
+webpack-config
+webpack.config.js
+webpack.dev.config.js
+webpack.dll.config.js
+test/
+README.md
