@@ -70,9 +70,9 @@ app.use(function (err, req, res, next) {
 })
 
 AV.init({
-  appId: process.env.LEANCLOUD_APP_ID,
-  appKey: process.env.LEANCLOUD_APP_KEY,
-  masterKey: process.env.LEANCLOUD_APP_MASTER_KEY
+  appId: process.env.LEANCLOUD_APP_ID || 'c0yeREg7AjJSD6HBGvn91NHH-gzGzoHsz',
+  appKey: process.env.LEANCLOUD_APP_KEY || 'Rhes3YFn1HCbdovkVDhjUfrP',
+  masterKey: process.env.LEANCLOUD_APP_MASTER_KEY || '6Cxaz23eSUUeVbQJ0jKFMklH'
 })
 
 // // 如果不希望使用 masterKey 权限，可以将下面一行删除
