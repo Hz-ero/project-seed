@@ -3,18 +3,18 @@ import About from '../components/About.jsx'
 import { fetchRSS } from '../actions'
 
 const mapStateToProps = (state, ownProps) => ({
-    // todoArray: state.todos
+  // todoArray: state.todos
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-    clickFetch: () => {
-        dispatch(fetchRSS())
-    }
+  clickFetch: () => {
+    dispatch(fetchRSS())
+  }
 })
 
 const AboutContainer = connect(
-    mapStateToProps,
-    mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(About)
 
 export default AboutContainer

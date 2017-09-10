@@ -6,5 +6,5 @@ module.exports = {
   inline: true,
   contentBase: dirVars.publicDir,
   port: 8080,
-  stats: { colors: true },
+  stats: { colors: true }
 }

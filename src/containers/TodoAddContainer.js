@@ -3,18 +3,18 @@ import TodoAdd from '../components/TodoAdd.jsx'
 import { addTodo } from '../actions'
 
 const mapStateToProps = (state, ownProps) => ({
-    // todoArray: state.todos
+  // todoArray: state.todos
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-    clickAddTodo: (todoInput) => {
-        dispatch(addTodo(todoInput))
-    }
+  clickAddTodo: (todoInput) => {
+    dispatch(addTodo(todoInput))
+  }
 })
 
 const TodoAddContainer = connect(
-    mapStateToProps,
-    mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(TodoAdd)
 
 export default TodoAddContainer
