@@ -14,3 +14,4 @@ webpack.dll.config.js
 test/
 README.md
 coverage/
+package-lock.json
